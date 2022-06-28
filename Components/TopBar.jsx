@@ -23,7 +23,7 @@ function TopBar() {
                         md:'none',
                         xs:'flex'
                     }, justifyContent: 'center', alignItems: 'center'}} >
-                        <img style={{width:'100%',height:'100%',objectFit:'contain'}} src="/logo.gif" alt="Cover Picture here..." />
+                        <img style={{width:'100%',height:'100%',objectFit:'contain'}} src="/GifLogo/logo.gif" alt="Cover Picture here..." />
                     </Box>
                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: '36px', lineHeight: '42px', fontFamily: 'HelveticaBold',mt:{
                         md:0,
@@ -44,7 +44,7 @@ function TopBar() {
                         md:'flex',
                         xs:'none'
                     }, justifyContent: 'center', alignItems: 'center'}} >
-                        <img style={{width:'100%',height:'100%',objectFit:'contain'}} src="/logo.gif" alt="Cover Picture here..." />
+                        <img style={{width:'100%',height:'100%',objectFit:'contain'}} src="/GifLogo/logo.gif" alt="Cover Picture here..." />
                     </Box>
                         <Box sx={{
                             display: 'flex', justifyContent: 'center', alignItems: 'center', ml: {
