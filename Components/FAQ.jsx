@@ -40,47 +40,47 @@ function FAQ() {
                     }} >
                         FAQs
                     </Typography>
-                    <Box sx={{ width: {
-                        md:'60%',
-                        xs:'100%'
-                    }, mt: 8 }} >
+                    <Box sx={{
+                        width: {
+                            md: '60%',
+                            xs: '100%'
+                        }, mt: 8
+                    }} >
                         {
                             faq.map((item, index) => {
-                                return <Zoom cascade key={index} >
-                                    <Accordion sx={{ mt: 2 }} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
-                                        <AccordionSummary
-                                            expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
-                                            aria-controls="panel1bh-content"
-                                            id="panel1bh-header"
-                                            sx={{ backgroundColor: '#0F242B', py: 1 }}
-                                        >
-                                            <Typography variant='h4' sx={{
-                                                color: '#EDEDED', fontSize: {
-                                                    md:'30px',
-                                                    xs:'20px'
-                                                }, lineHeight: {
-                                                    md:'38px',
-                                                    xs:'28px'
-                                                }, fontFamily: 'HelveticaBold'
-                                            }} >
-                                                {item.question}
-                                            </Typography>
-                                        </AccordionSummary>
-                                        <AccordionDetails sx={{ backgroundColor: 'black' }} >
-                                            <Typography variant='h4' sx={{
-                                                color: '#EDEDED', fontSize: {
-                                                    md:'24px',
-                                                    xs:'16px'
-                                                }, lineHeight: {
-                                                    md:'30px',
-                                                    xs:'24px'
-                                                }, fontFamily: 'HelveticaRegular'
-                                            }} >
-                                                {item.answer}
-                                            </Typography>
-                                        </AccordionDetails>
-                                    </Accordion>
-                                </Zoom>
+                                return <Accordion key={index} sx={{ mt: 2 }} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
+                                    <AccordionSummary
+                                        expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                        aria-controls="panel1bh-content"
+                                        id="panel1bh-header"
+                                        sx={{ backgroundColor: 'black', py: 1 }}
+                                    >
+                                        <Typography variant='h4' sx={{
+                                            color: '#EDEDED', fontSize: {
+                                                md: '30px',
+                                                xs: '20px'
+                                            }, lineHeight: {
+                                                md: '38px',
+                                                xs: '28px'
+                                            }, fontFamily: 'HelveticaBold'
+                                        }} >
+                                            {item.question}
+                                        </Typography>
+                                    </AccordionSummary>
+                                    <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                        <Typography variant='h4' sx={{
+                                            color: '#EDEDED', fontSize: {
+                                                md: '24px',
+                                                xs: '16px'
+                                            }, lineHeight: {
+                                                md: '30px',
+                                                xs: '24px'
+                                            }, fontFamily: 'HelveticaRegular'
+                                        }} >
+                                            {item.answer}
+                                        </Typography>
+                                    </AccordionDetails>
+                                </Accordion>
                             })
                         }
                     </Box>
