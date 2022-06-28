@@ -16,7 +16,8 @@ function Collection() {
                         md:'80px',
                         xs:'40px'
                     }, lineHeight: {
-                        md:'101px'
+                        md:'101px',
+                        xs:'52px'
                     }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize',textAlign:'center',position:'relative',zIndex:1, }} >
                         About The Collection
                     </Typography>
@@ -25,7 +26,7 @@ function Collection() {
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/backstage.gif" alt="" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/backstage.gif" alt="img" />
                                     </Box>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
                                         md:'40px',
@@ -57,7 +58,7 @@ function Collection() {
                                     xs:-6
                                 } }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/vip.gif" alt="" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/vip.gif" alt="img" />
                                     </Box>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
                                         md:'40px',
@@ -90,7 +91,7 @@ function Collection() {
                                     xs:-6
                                 } }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/member.gif" alt="" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/member.gif" alt="img" />
                                     </Box>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
                                         md:'40px',
