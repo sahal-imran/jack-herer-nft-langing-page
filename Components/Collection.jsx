@@ -10,7 +10,10 @@ import Grid from '@mui/material/Grid';
 function Collection() {
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', py: 8 }} >
+            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', py: 8,mt: {
+                    md: 0,
+                    xs: -1
+                } }} >
                 <Container maxWidth="lgBig" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
                         md:'80px',
@@ -21,7 +24,7 @@ function Collection() {
                     }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize',textAlign:'center',position:'relative',zIndex:1, }} >
                         About The Collection
                     </Typography>
-                    <Box sx={{ width: '100%' }} >
+                    <Box sx={{ width: '100%',mt:8 }} >
                         <Grid container rowSpacing={{ xs: 8, md: 0 }} columnSpacing={{ xs: 0, md: 4 }}>
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >

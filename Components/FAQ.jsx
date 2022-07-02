@@ -19,7 +19,7 @@ function FAQ() {
     };
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', overflow: 'hidden' }} >
+            <Box id={'FAQ'} sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', overflow: 'hidden' }} >
                 <Container maxWidth="lgBig" sx={{
                     display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', pt: {
                         md: 14,

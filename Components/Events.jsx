@@ -9,7 +9,10 @@ import Grid from '@mui/material/Grid';
 function Events() {
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', }} >
+            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000',mt: {
+                    md: 0,
+                    xs: -1
+                } }} >
                 <Container maxWidth="lgBig" sx={{
                     display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', pt: {
                         md: 11,
@@ -35,7 +38,7 @@ function Events() {
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/events.png" alt="img" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/1.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage3.png" alt="img" />
@@ -49,14 +52,14 @@ function Events() {
                                             xs: '28px'
                                         }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'center', mt: 5
                                     }} >
-                                        To be announced
+                                        November 4th -6th
                                     </Typography>
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/events.png" alt="img" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/2.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage1.png" alt="img" />
@@ -77,7 +80,7 @@ function Events() {
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/events.png" alt="img" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/3.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage1.png" alt="img" />
@@ -91,14 +94,14 @@ function Events() {
                                             xs: '28px'
                                         }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'center', mt: 5
                                     }} >
-                                        November 16th
+                                        November 19th
                                     </Typography>
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/events.png" alt="img" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/4.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage2.png" alt="img" />
@@ -119,7 +122,7 @@ function Events() {
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/events.png" alt="img" />
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/5.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
                                         {/* <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage3.png" alt="img" /> */}

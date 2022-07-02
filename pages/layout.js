@@ -1,3 +1,5 @@
+import TopBar from "../Components/TopBar";
+import Footer from "../Components/Footer";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const theme = createTheme({
@@ -18,7 +20,9 @@ export default function Layout({ children }) {
   return (
     <>
        <ThemeProvider theme={theme}>
+        <TopBar />
         <main>{children}</main>
+        <Footer />
       </ThemeProvider>
     </>
   )

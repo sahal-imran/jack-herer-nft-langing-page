@@ -11,7 +11,6 @@ import Footer from "../Components/Footer";
 function index() {
   return (
     <>
-    <TopBar />
     <Hero />
     <Collection />
     <WhatIsJackHerer />
@@ -19,7 +18,6 @@ function index() {
     <PastEvents />
     <Roadmap />
     <FAQ />
-    <Footer />
     </>
   )
 }

@@ -26,6 +26,9 @@ body {
 * {
   box-sizing: border-box;
 }
+.active{
+  color: #707070;
+}
 .css-1o7lps4-MuiButtonBase-root-MuiAccordionSummary-root:not(.Mui-disabled) {
   border-radius: 0px;
   background: black;
