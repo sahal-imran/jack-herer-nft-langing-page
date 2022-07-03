@@ -341,7 +341,9 @@ function Mint() {
               }, height: {
                 md: '840px',
                 xs: '550px'
-              }, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', borderLeft: '1px solid white', background: 'linear-gradient(to bottom, #437E62,#85C2A1)', borderTopRightRadius: '15px', borderBottomRightRadius: '15px', pr: {
+              }, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', borderLeft: {
+                md:'1px solid white'
+              }, background: 'linear-gradient(to bottom, #437E62,#85C2A1)', borderTopRightRadius: '15px', borderBottomRightRadius: '15px', pr: {
                 md: 4,
                 xs: 4
               }, pl: {
