@@ -9,10 +9,12 @@ import Grid from '@mui/material/Grid';
 function Events() {
     return (
         <>
-            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000',mt: {
+            <Box sx={{
+                width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', mt: {
                     md: 0,
                     xs: -1
-                } }} >
+                }
+            }} >
                 <Container maxWidth="lgBig" sx={{
                     display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', pt: {
                         md: 11,
@@ -38,27 +40,6 @@ function Events() {
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/1.png" alt="img" />
-                                    </Box>
-                                    <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
-                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage3.png" alt="img" />
-                                    </Box>
-                                    <Typography variant='h4' sx={{
-                                        color: '#EDEDED', fontSize: {
-                                            md: '24px',
-                                            xs: '20px'
-                                        }, lineHeight: {
-                                            md: '31px',
-                                            xs: '28px'
-                                        }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'center', mt: 5
-                                    }} >
-                                        November 4th -6th
-                                    </Typography>
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={3}>
-                                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
-                                    <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/2.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
@@ -66,7 +47,7 @@ function Events() {
                                     </Box>
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
-                                            md: '24px',
+                                            md: '22px',
                                             xs: '20px'
                                         }, lineHeight: {
                                             md: '31px',
@@ -80,6 +61,27 @@ function Events() {
                             <Grid item xs={12} md={3}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/1.png" alt="img" />
+                                    </Box>
+                                    <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
+                                        <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/flage3.png" alt="img" />
+                                    </Box>
+                                    <Typography variant='h4' sx={{
+                                        color: '#EDEDED', fontSize: {
+                                            md: '22px',
+                                            xs: '20px'
+                                        }, lineHeight: {
+                                            md: '31px',
+                                            xs: '28px'
+                                        }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'center', mt: 5
+                                    }} >
+                                        November 4th-6th
+                                    </Typography>
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={3}>
+                                <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+                                    <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/Events/3.png" alt="img" />
                                     </Box>
                                     <Box sx={{ width: '62px', height: '39px', display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2 }} >
@@ -87,7 +89,7 @@ function Events() {
                                     </Box>
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
-                                            md: '24px',
+                                            md: '22px',
                                             xs: '20px'
                                         }, lineHeight: {
                                             md: '31px',
@@ -108,7 +110,7 @@ function Events() {
                                     </Box>
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
-                                            md: '24px',
+                                            md: '22px',
                                             xs: '20px'
                                         }, lineHeight: {
                                             md: '31px',
@@ -129,7 +131,7 @@ function Events() {
                                     </Box>
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
-                                            md: '24px',
+                                            md: '22px',
                                             xs: '20px'
                                         }, lineHeight: {
                                             md: '31px',
@@ -150,7 +152,7 @@ function Events() {
                             md: '40px',
                             xs: '24px'
                         }, fontFamily: 'HelveticaRegular', textAlign: 'center', width: {
-                            md: '60%'
+                            md: '68%'
                         }
                     }} >
                         At Jack Herer Cup Events, we discuss current cannabis issues and how to grow our industry along with judging the best cannabis products in the world!<br />

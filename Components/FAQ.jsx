@@ -46,43 +46,212 @@ function FAQ() {
                             xs: '100%'
                         }, mt: 8
                     }} >
-                        {
-                            faq.map((item, index) => {
-                                return <Accordion key={index} sx={{ mt: 2 }} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)}>
-                                    <AccordionSummary
-                                        expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
-                                        aria-controls="panel1bh-content"
-                                        id="panel1bh-header"
-                                        sx={{ backgroundColor: 'black', py: 1 }}
-                                    >
-                                        <Typography variant='h4' sx={{
-                                            color: '#EDEDED', fontSize: {
-                                                md: '30px',
-                                                xs: '20px'
-                                            }, lineHeight: {
-                                                md: '38px',
-                                                xs: '28px'
-                                            }, fontFamily: 'HelveticaBold'
-                                        }} >
-                                            {item.question}
-                                        </Typography>
-                                    </AccordionSummary>
-                                    <AccordionDetails sx={{ backgroundColor: 'black' }} >
-                                        <Typography variant='h4' sx={{
-                                            color: '#EDEDED', fontSize: {
-                                                md: '24px',
-                                                xs: '16px'
-                                            }, lineHeight: {
-                                                md: '30px',
-                                                xs: '24px'
-                                            }, fontFamily: 'HelveticaRegular'
-                                        }} >
-                                            {item.answer}
-                                        </Typography>
-                                    </AccordionDetails>
-                                </Accordion>
-                            })
-                        }
+                        <Accordion expanded={expanded === `panel1`} onChange={handleChange(`panel1`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    How many are there?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    Total NFTS: 7,777<br />Backstage Level: 22<br />VIP Level: 399<br />Members Level: total NFTs are 7,356
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion sx={{ mt: 2 }} expanded={expanded === `panel2`} onChange={handleChange(`panel2`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    Which blockchain is it on?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    Ethereum (ETH) Blockchain
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion sx={{ mt: 2 }} expanded={expanded === `panel3`} onChange={handleChange(`panel3`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    How much does the NFT cost?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    Backstage Level: Air dropped to Celebrities and Industry Leaders<br />
+                                    <br />
+                                    Presale Price:<br />
+                                    VIP - .85 eth<br />
+                                    Members - .420 eth<br />
+                                    <br />
+                                    Public Price:<br />
+                                    VIP - 1 eth<br />
+                                    Members - .6 eth<br />
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion sx={{ mt: 2 }} expanded={expanded === `panel4`} onChange={handleChange(`panel4`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    When does the NFT drop?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    To be determined
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion sx={{ mt: 2 }} expanded={expanded === `panel5`} onChange={handleChange(`panel5`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    What is the max amount that is mintable?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    Each person will be able to mint up to 4 NFTS
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                        <Accordion sx={{ mt: 2 }} expanded={expanded === `panel6`} onChange={handleChange(`panel6`)}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon sx={{ color: '#EDEDED', fontSize: '40px' }} />}
+                                aria-controls="panel1bh-content"
+                                id="panel1bh-header"
+                                sx={{ backgroundColor: 'black', py: 1 }}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '30px',
+                                        xs: '20px'
+                                    }, lineHeight: {
+                                        md: '38px',
+                                        xs: '28px'
+                                    }, fontFamily: 'HelveticaBold'
+                                }} >
+                                    What is Jack Herer Cup?
+                                </Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ backgroundColor: 'black' }} >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '16px'
+                                    }, lineHeight: {
+                                        md: '30px',
+                                        xs: '24px'
+                                    }, fontFamily: 'HelveticaRegular'
+                                }} >
+                                    The Jack Herer Cup is the Premier Cannabis Award Show that honors the Best Products and Cannabis Leaders in the Industry. At our events held around the world, we come together to discuss cannabis education and current issues in the cannabis industry.
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
                     </Box>
                 </Container>
             </Box>
@@ -96,7 +265,7 @@ const faq = [
     {
         id: 1,
         question: 'How many are there?',
-        answer: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis nesciunt autem voluptates ab ullam dolor vitae, labore, error aperiam, illo quibusdam fugiat. Aut nisi repudiandae iusto, maiores laborum unde voluptas ullam a doloribus illo accusamus modi saepe reprehenderit cupiditate consequatur nobis, debitis dolor! Ipsam, excepturi deleniti. Consequuntur officia harum accusantium'
+        answer: ``
     },
     {
         id: 2,
@@ -115,12 +284,12 @@ const faq = [
     },
     {
         id: 5,
-        question: 'What is the max amount that is mintable?',
+        question: '',
         answer: 'Eth is the cryptocurrency of Ethereum and it can be purchased on coinbase.'
     },
     {
         id: 6,
         question: 'What is Jack Herer Cup?',
-        answer: 'This collection will be available for purchase July 28th, 2022. Whitelist will be able to mint an hour before.'
+        answer: 'The Jack Herer Cup is the Premier Cannabis Award Show that honors the Best Products and Cannabis Leaders in the Industry. At our events held around the world, we come together to discuss cannabis education and current issues in the cannabis industry.'
     }
 ]

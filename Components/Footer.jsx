@@ -135,7 +135,7 @@ function Footer() {
                                 md: -3
                             }
                         }} >
-                            <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                            <AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none',mr: 2 }} >
                                 <Image
                                     src="/twitter.png"
                                     alt="icon"
@@ -144,7 +144,16 @@ function Footer() {
                                     objectFit={'contain'}
                                 />
                             </AnchorLink>
-                            <AnchorLink href='' sx={{ textDecoration: 'none', mx: 2 }} >
+                            <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
+                            <Image
+                                src="/discord.png"
+                                alt="icon"
+                                width={54}
+                                height={54}
+                                objectFit={'contain'}
+                            />
+                        </AnchorLink>
+                            <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none',mr: 2 }} >
                                 <Image
                                     src="/instagram.png"
                                     alt="icon"
@@ -153,7 +162,7 @@ function Footer() {
                                     objectFit={'contain'}
                                 />
                             </AnchorLink>
-                            <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                            <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none' }} >
                                 <Image
                                     src="/opensea.png"
                                     alt="icon"

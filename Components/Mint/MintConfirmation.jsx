@@ -19,6 +19,8 @@ function MintConfirmation() {
     console.log(MintSelected);
 
     const [Mint, setMint] = useState(0);
+
+    
     const Increment = () => {
         if (Mint >= 4) {
             setMint(4);
@@ -30,6 +32,7 @@ function MintConfirmation() {
             setMint(Mint + 1)
         }
     }
+    
     const Decrement = () => {
         if (Mint <= 0) {
             setMint(0);
@@ -109,7 +112,7 @@ function MintConfirmation() {
                                                 xs: '24px'
                                             }, fontFamily: 'HelveticaRegular'
                                         }} >
-                                            {MintSelected === 'member' ? '7,357' : '399'}
+                                            {MintSelected === 'member' ? '7,356' : '399'}
                                         </Typography>
                                     </Box>
                                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 4 }} >

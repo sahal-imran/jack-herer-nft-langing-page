@@ -34,90 +34,95 @@ function PastEvents() {
                         md:'100vw',
                         xs:'100%'
                     }, mt: 8 }} >
-                        <Grid container columns={{ md: 14 }} rowSpacing={{ xs: 2, md: 2 }} columnSpacing={{ xs: 0, md: 2 }}>
+                        <Grid container columns={{ md: 12 }} rowSpacing={{ xs: 2, md: 2 }} columnSpacing={{ xs: 0, md: 1 }}>
                             <Grid item xs={12} md={3}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 1.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 1.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 2.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 2.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 3.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={2}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 11.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={1}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 8.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={6}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 5.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 7.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={2}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 9.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 6.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 4.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 3.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 17.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 16.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 11.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 14.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 13.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={5}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 10.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 8.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '440px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'cover' }} src="/past event/jack herer 12.png" alt="img" />
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 5.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 7.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 9.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 6.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={5}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 4.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 17.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={3}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 16.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 14.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 13.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 10.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 9.png" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 12.png" alt="img" />
                                 </Box>
                             </Grid>
                         </Grid>

@@ -141,7 +141,7 @@ function Mint() {
                         md: '55px'
                       }, fontFamily: 'HelveticaBold', mt: 4
                     }} >
-                      Member
+                      Members
                     </Typography>
                   </Box>
                 </Grid>
@@ -153,7 +153,7 @@ function Mint() {
           {/* ++++++++++++++++++ */}
           <Box sx={Hide_Main ? {
             width: {
-              md: '70%',
+              md: '65%',
               xs: '100%'
             }, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: {
               md: 'row',
@@ -221,7 +221,7 @@ function Mint() {
                         xs: '24px'
                       }, fontFamily: 'HelveticaRegular'
                     }} >
-                      398
+                      399
                     </Typography>
                   </Box>
                   <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2 }} >
@@ -398,7 +398,7 @@ function Mint() {
                         xs: '24px'
                       }, fontFamily: 'HelveticaRegular'
                     }} >
-                      7,357
+                      7,356
                     </Typography>
                   </Box>
                   <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2 }} >
@@ -454,7 +454,7 @@ function Mint() {
                         xs: '24px'
                       }, fontFamily: 'HelveticaRegular'
                     }} >
-                      7,357 - Presale
+                      7,356 - Presale
                     </Typography>
                   </Box>
                   <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2 }} >
@@ -543,7 +543,7 @@ function Mint() {
                     <br />
                     - Member will receive 18,000 points to be used to attend events and gain additional access. <br />
                     <br />
-                    -  Will receive free merchandise with each event that the member attends
+                    -  Will receive free merchandise with each event that the member attends.
                   </Typography>
                 </Box>
               </Grid>
@@ -703,7 +703,7 @@ function Mint() {
                     <br />
                     - Member will receive 8,000 points to be used to attend events and gain additional access. <br />
                     <br />
-                    -  Will receive free merchandise with each event that the member attends
+                    -  Will receive free merchandise with each event that the member attends.
                   </Typography>
                 </Box>
               </Grid>
@@ -722,7 +722,7 @@ function Mint() {
                       md: '57px'
                     }, fontFamily: 'HelveticaBold'
                   }} >
-                    VIP
+                    Members
                   </Typography>
                   <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', mt: 10 }} >
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }} >
@@ -746,7 +746,7 @@ function Mint() {
                           xs: '24px'
                         }, fontFamily: 'HelveticaRegular'
                       }} >
-                        7,357
+                        7,356
                       </Typography>
                     </Box>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 3 }} >

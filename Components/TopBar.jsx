@@ -45,7 +45,7 @@ function TopBar() {
                     }, justifyContent: 'center', alignItems: 'center',
                 }} >
                     <Box sx={{
-                        width: '180px', height: '100%px', display: 'flex', justifyContent: 'center', alignItems: 'center'
+                        width: '180px', height: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center'
                     }} >
                         <img style={{ width: '100%', height: '100%', objectFit: 'contain' }} src="/logoMov.gif" alt="Cover Picture here..." />
                     </Box>
@@ -54,7 +54,7 @@ function TopBar() {
                             md: -3
                         }
                     }} >
-                        <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                        <AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none',mr: 2  }} >
                             <Image
                                 src="/twitter.png"
                                 alt="icon"
@@ -63,7 +63,16 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink href='' sx={{ textDecoration: 'none', mx: 2 }} >
+                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
+                            <Image
+                                src="/discord.png"
+                                alt="icon"
+                                width={54}
+                                height={54}
+                                objectFit={'contain'}
+                            />
+                        </AnchorLink>
+                        <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none', mr: 2 }} >
                             <Image
                                 src="/instagram.png"
                                 alt="icon"
@@ -72,7 +81,7 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none' }} >
                             <Image
                                 src="/opensea.png"
                                 alt="icon"
@@ -136,7 +145,7 @@ function TopBar() {
                     <Box sx={{
                         display: 'flex', justifyContent: 'center', alignItems: 'center', mt: 2
                     }} >
-                        <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                        <AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none',mr: 2  }} >
                             <Image
                                 src="/twitter.png"
                                 alt="icon"
@@ -145,7 +154,16 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink href='' sx={{ textDecoration: 'none', mx: 2 }} >
+                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
+                            <Image
+                                src="/discord.png"
+                                alt="icon"
+                                width={54}
+                                height={54}
+                                objectFit={'contain'}
+                            />
+                        </AnchorLink>
+                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
                             <Image
                                 src="/instagram.png"
                                 alt="icon"
@@ -154,7 +172,7 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink href='' sx={{ textDecoration: 'none' }} >
+                        <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none' }} >
                             <Image
                                 src="/opensea.png"
                                 alt="icon"

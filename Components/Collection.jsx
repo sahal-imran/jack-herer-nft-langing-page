@@ -25,7 +25,7 @@ function Collection() {
                         About The Collection
                     </Typography>
                     <Box sx={{ width: '100%',mt:8 }} >
-                        <Grid container rowSpacing={{ xs: 8, md: 0 }} columnSpacing={{ xs: 0, md: 4 }}>
+                        <Grid container rowSpacing={{ xs: 8, md: 0 }} columnSpacing={{ xs: 0, md: 0 }}>
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
                                     <Box sx={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
@@ -41,17 +41,17 @@ function Collection() {
                                         Backstage Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
-                                        md:'22px',
+                                        md:'14px',
                                         xs:'16px'
                                     }, lineHeight: {
                                         md:'36px',
                                         xs:'24px'
                                     }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2 }} >
-                                        - Air Dropped to celebrities and Industry leaders.<br />
+                                        - Air Dropped to Celebrities and Industry leaders.<br />
                                         <br />
                                         - Member will receive 40,000 points to be used to attend events and gain additional access.<br />
                                         <br />
-                                        -  Will receive free merchandise with each event that the member attends
+                                        -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
                                 </Box>
                             </Grid>
@@ -73,7 +73,7 @@ function Collection() {
                                         VIP Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
-                                        md:'22px',
+                                        md:'14px',
                                         xs:'16px'
                                     }, lineHeight: {
                                         md:'36px',
@@ -84,7 +84,7 @@ function Collection() {
                                         <br />
                                         - Member will receive 18,000 points to be used to attend events and gain additional access.<br />
                                         <br />
-                                        -  Will receive free merchandise with each event that the member attends
+                                        -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
                                 </Box>
                             </Grid>
@@ -106,7 +106,7 @@ function Collection() {
                                         Members Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED',fontSize: {
-                                        md:'22px',
+                                        md:'14px',
                                         xs:'16px'
                                     }, lineHeight: {
                                         md:'36px',
@@ -117,7 +117,7 @@ function Collection() {
                                         <br />
                                         - Member will receive 8,000 points to be used to attend events and gain additional access. <br />
                                         <br />
-                                        -  Will receive free merchandise with each event that the member attends
+                                        -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
                                 </Box>
                             </Grid>
