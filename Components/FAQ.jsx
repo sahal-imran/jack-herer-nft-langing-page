@@ -143,13 +143,13 @@ function FAQ() {
                                 }} >
                                     Backstage Level: Air dropped to Celebrities and Industry Leaders<br />
                                     <br />
-                                    Presale Price:<br />
-                                    VIP - .85 eth<br />
-                                    Members - .420 eth<br />
+                                    VIP Level:<br />
+                                    Presale .85 eth<br />
+                                    Public Sales 1 ETH<br />
                                     <br />
-                                    Public Price:<br />
-                                    VIP - 1 eth<br />
-                                    Members - .6 eth<br />
+                                    Members Level:<br />
+                                    Presale .420 ETH<br />
+                                    Public Sales .6 ETH
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>
@@ -248,7 +248,9 @@ function FAQ() {
                                         xs: '24px'
                                     }, fontFamily: 'HelveticaRegular'
                                 }} >
-                                    The Jack Herer Cup is the Premier Cannabis Award Show that honors the Best Products and Cannabis Leaders in the Industry. At our events held around the world, we come together to discuss cannabis education and current issues in the cannabis industry.
+                                    The Jack Herer Cup is the Premier Cannabis Award Show that honors the Best Products and Cannabis Leaders in the Industry. At our events held around the world, we come together to discuss cannabis education and current issues in the cannabis industry.<br />
+                                    <br />
+                                    We can’t wait to see you there!
                                 </Typography>
                             </AccordionDetails>
                         </Accordion>

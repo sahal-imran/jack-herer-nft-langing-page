@@ -11,6 +11,8 @@ import { useRouter } from 'next/router';
 import Grid from '@mui/material/Grid';
 import ArrowLeftIcon from '@mui/icons-material/ArrowLeft';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function Mint() {
 
@@ -58,15 +60,43 @@ function Mint() {
     }
   }
 
+
+  const [Category_VIP, Set_Category_VIP] = useState('Public Price');
+  const [Category_VIP_Value, Set_Category_VIP_Value] = useState('1 ETH');
+  const Turn_Category_VIP = () => {
+    if (Category_VIP === 'Public Price') {
+      Set_Category_VIP('Presale Price');
+      Set_Category_VIP_Value('.85 ETH');
+    }
+    else if (Category_VIP === 'Presale Price') {
+      Set_Category_VIP('Public Price');
+      Set_Category_VIP_Value('1 ETH');
+    }
+  }
+
+  const [Category_Members, Set_Category_Members] = useState('Public Price');
+  const [Category_Members_Value, Set_Category_Members_Value] = useState('.6 ETH');
+  const Turn_Category_Members = () => {
+    if (Category_Members === 'Public Price') {
+      Set_Category_Members('Presale Price');
+      Set_Category_Members_Value('.420 ETH');
+    }
+    else if (Category_Members === 'Presale Price') {
+      Set_Category_Members('Public Price');
+      Set_Category_Members_Value('.6 ETH');
+    }
+  }
+
+
   return (
     <>
       <Box sx={{
         width: '100%', minHeight: {
           md: '100vh'
-        }, display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', py: 8,mt: {
+        }, display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', py: 8, mt: {
           md: 0,
           xs: -1
-      }
+        }
       }} >
         <Container maxWidth="lgBig" sx={{ height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
           <Box sx={{ width: "100%", display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
@@ -76,7 +106,7 @@ function Mint() {
                 xs: '40px'
               }, lineHeight: {
                 md: '66px'
-              }, fontFamily: 'HelveticaBold',textAlign:'center'
+              }, fontFamily: 'HelveticaBold', textAlign: 'center'
             }} >
               Become a VIP or Member
             </Typography>
@@ -86,7 +116,7 @@ function Mint() {
                 xs: '30px'
               }, lineHeight: {
                 md: '52px'
-              }, fontFamily: 'HelveticaRegular', mt: 2,textAlign:'center'
+              }, fontFamily: 'HelveticaRegular', mt: 2, textAlign: 'center'
             }} >
               Start by selecting one of the following:
             </Typography>
@@ -342,7 +372,7 @@ function Mint() {
                 md: '840px',
                 xs: '550px'
               }, display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', borderLeft: {
-                md:'1px solid white'
+                md: '1px solid white'
               }, background: 'linear-gradient(to bottom, #437E62,#85C2A1)', borderTopRightRadius: '15px', borderBottomRightRadius: '15px', pr: {
                 md: 4,
                 xs: 4
@@ -599,8 +629,12 @@ function Mint() {
                           xs: '28px'
                         }, fontFamily: 'HelveticaBold'
                       }} >
-                        Public Price
+                        {Category_VIP}
                       </Typography>
+                      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+                        <ArrowDropUpIcon onClick={() => Turn_Category_VIP()} sx={{ color: 'white', fontSize: '36px', cursor: 'pointer' }} />
+                        <ArrowDropDownIcon onClick={() => Turn_Category_VIP()} sx={{ color: 'white', fontSize: '36px', cursor: 'pointer', mt: -1 }} />
+                      </Box>
                       <Typography variant='h4' sx={{
                         color: '#EDEDED', fontSize: {
                           md: '24px',
@@ -610,7 +644,7 @@ function Mint() {
                           xs: '24px'
                         }, fontFamily: 'HelveticaRegular'
                       }} >
-                        1 ETH
+                        {Category_VIP_Value}
                       </Typography>
                     </Box>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 3 }} >
@@ -681,7 +715,7 @@ function Mint() {
               xs: 14
             }
           } : { display: 'none' }} >
-            <Grid container rowSpacing={{ xs: 8, md: 0 }} columnSpacing={{ xs: 0, md: 8}}>
+            <Grid container rowSpacing={{ xs: 8, md: 0 }} columnSpacing={{ xs: 0, md: 8 }}>
               <Grid item xs={12} md={6}>
                 <Box sx={{
                   display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'
@@ -759,8 +793,12 @@ function Mint() {
                           xs: '28px'
                         }, fontFamily: 'HelveticaBold'
                       }} >
-                        Public Price
+                        {Category_Members}
                       </Typography>
+                      <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }} >
+                        <ArrowDropUpIcon onClick={() => Turn_Category_Members()} sx={{ color: 'white', fontSize: '36px', cursor: 'pointer' }} />
+                        <ArrowDropDownIcon onClick={() => Turn_Category_Members()} sx={{ color: 'white', fontSize: '36px', cursor: 'pointer', mt: -1 }} />
+                      </Box>
                       <Typography variant='h4' sx={{
                         color: '#EDEDED', fontSize: {
                           md: '24px',
@@ -770,7 +808,7 @@ function Mint() {
                           xs: '24px'
                         }, fontFamily: 'HelveticaRegular'
                       }} >
-                        .6 ETH
+                        {Category_Members_Value}
                       </Typography>
                     </Box>
                     <Box sx={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 3 }} >

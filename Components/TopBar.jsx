@@ -23,7 +23,7 @@ function TopBar() {
 
     return <>
         <Box component={'div'} sx={{
-            width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000',py:1
+            width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000',pt:4,pb:1
         }} >
             <Container maxWidth="lgBig" sx={{
                 height: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '98px'

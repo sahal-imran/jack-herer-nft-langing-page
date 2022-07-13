@@ -44,7 +44,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,ml:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -67,7 +69,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start',
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start',
                                 }} >
                                     Launch of Jack Here Cup NFT!
                                 </Typography>
@@ -87,7 +89,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row-reverse',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,mr:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -110,7 +114,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
                                 }} >
                                     First Event in the United States for 2022 in Oklahoma!
                                 </Typography>
@@ -130,7 +134,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,ml:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -153,7 +159,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Completion of Jack Herer Cup Web3 Platform!
                                 </Typography>
@@ -164,7 +170,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '24px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start',
+                                    }, fontFamily: 'HelveticaRegular', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start',
                                 }} >
                                     Holders will be able to use the platform to distribute points, buy additional points and more!
                                 </Typography>
@@ -184,7 +190,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row-reverse',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,mr:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -207,7 +215,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
                                 }} >
                                     Our Inaugural Jack Herer Cup Colombia will be hosted by DJ Bonics in Medellin, Colombia on November 4th through the 6th!
                                 </Typography>
@@ -227,7 +235,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,ml:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -250,7 +260,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Our Most Famous Event, the 8th Annual Jack Herer Cup Las Vegas
                                     on November 19th 2022
@@ -271,7 +281,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row-reverse',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,mr:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -294,7 +306,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
                                 }} >
                                     Come Roll With Us at the 2nd Annual Jack Herer Cup Thailand 2 day event on the beach in December.
                                 </Typography>
@@ -314,7 +326,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,ml:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -337,7 +351,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Jack Herer Cup NFT holders will be able to gain access and use their points in Thailand for cannabis friendly travel and accommodations with Get Thai With Us. Website: www.GetThaiWithUs.com
                                 </Typography>
@@ -357,7 +371,9 @@ function Roadmap() {
                         }, flexDirection: {
                             md: 'row-reverse',
                             xs: 'column'
-                        }, mt: 4
+                        }, mt: 4,mr:{
+                            md:-6
+                        }
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
@@ -380,7 +396,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'Merriweather', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
+                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textTransform: 'capitalize', textAlign: 'start'
                                 }} >
                                     Jack Herer Cup Metaverse Coming Soon..
                                 </Typography>
