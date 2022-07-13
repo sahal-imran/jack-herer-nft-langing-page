@@ -49,7 +49,7 @@ function Collection() {
                                     }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2 }} >
                                         - Air Dropped to Celebrities and Industry leaders.<br />
                                         <br />
-                                        - Member will receive 40,000 points to be used to attend events and gain additional access.<br />
+                                        - Member will receive 40,000 points to be used to attend events<br />and gain additional access.<br />
                                         <br />
                                         -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
@@ -82,7 +82,7 @@ function Collection() {
                                         - Access to exclusive VIP Level Only
                                         areas at all events.<br />
                                         <br />
-                                        - Member will receive 18,000 points to be used to attend events and gain additional access.<br />
+                                        - Member will receive 18,000 points to be used to attend events<br />and gain additional access.<br />
                                         <br />
                                         -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
@@ -115,7 +115,7 @@ function Collection() {
                                         - Access to exclusive Members Level Only
                                         areas at all events. <br />
                                         <br />
-                                        - Member will receive 8,000 points to be used to attend events and gain additional access. <br />
+                                        - Member will receive 8,000 points to be used to attend events<br />and gain additional access. <br />
                                         <br />
                                         -  Will receive free merchandise with each event that the member attends.
                                     </Typography>
