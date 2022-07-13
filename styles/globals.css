@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @font-face {
   font-family: "HelveticaUltaLight";
-  src: url("../fonts/Helvetica\ Neue\ UltraLight.ttf");
+  src: url("../fonts/Helvetica\ Neue\ UltraLight.ttf") format("truetype");
 }
 @font-face {
   font-family: "HelveticaRegular";
-  src: url("../fonts/helveticaneue.ttf");
+  src: url("../fonts/helveticaneue.ttf") format("truetype");
 }
 @font-face {
   font-family: "HelveticaMedium";
-  src: url("../fonts/HelveticaNeue-Medium.otf");
+  src: url("../fonts/HelveticaNeue-Medium.otf") format("opentype");
 }
 @font-face {
   font-family: "HelveticaBold";
-  src: url("../fonts/Helvetica-Neue-Bold_22498.ttf");
+  src: url("../fonts/Helvetica-Neue-Bold_22498.ttf") format("truetype");
 }
 html,
 body {
