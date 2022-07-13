@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @font-face {
   font-family: "HelveticaUltaLight";
-  src: url("../fonts/Helvetica\ Neue\ UltraLight.ttf") format("truetype");
+  src: url("../fonts/HelveticaNeueUltraLight.ttf") format("truetype");
 }
 @font-face {
   font-family: "HelveticaRegular";
@@ -9,12 +9,30 @@
 }
 @font-face {
   font-family: "HelveticaMedium";
-  src: url("../fonts/HelveticaNeue-Medium.otf") format("opentype");
+  src: url("../fonts/HelveticaNeueMedium.otf") format("opentype");
 }
 @font-face {
   font-family: "HelveticaBold";
-  src: url("../fonts/Helvetica-Neue-Bold_22498.ttf") format("truetype");
+  src: url("../fonts/HelveticaNeueBold.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "HelveticaUltaLight";
+  src: url("../public/Custom\ fonts/HelveticaNeueUltraLight.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../public/Custom\ fonts/helveticaneue.ttf") format("truetype");
+}
+@font-face {
+  font-family: "HelveticaMedium";
+  src: url("../public/Custom\ fonts/HelveticaNeueMedium.otf") format("opentype");
+}
+@font-face {
+  font-family: "HelveticaBold";
+  src: url("../public/Custom\ fonts/HelveticaNeueBold.ttf") format("truetype");
+}
+
 html,
 body {
   padding: 0;
