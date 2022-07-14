@@ -33,7 +33,7 @@ function WhatIsJackHerer() {
                             md:'60%'
                         },mt:4
                     }} >
-                        The Jack Herer Cup NFT gives you the ability to be a part of an exclusive club that hosts Cannabis Events World Wide. NFT holders will receive exclusive perks, and products for each Jack Herer Cup event.<br />
+                        The Jack Herer Cup NFT gives you the ability to be a part of an exclusive club that hosts Cannabis Events Worldwide. NFT holders will receive exclusive perks, and products for each Jack Herer Cup event.<br />
                         <br />
                         When you mint your NFT, you will receive points that you can redeem for access to all of the events that Jack Herer Cup hosts all year round. With each level of the NFT’s you will be granted different kinds of access and receive different perks.
                     </Typography>

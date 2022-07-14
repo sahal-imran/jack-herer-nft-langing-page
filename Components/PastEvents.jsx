@@ -34,18 +34,13 @@ function PastEvents() {
                         md:'100vw',
                         xs:'100%'
                     }, mt: 8 }} >
-                        <Grid container columns={{ md: 12 }} rowSpacing={{ xs: 2, md: 2 }} columnSpacing={{ xs: 0, md: 1 }}>
-                            <Grid item xs={12} md={3}>
-                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 1.png" alt="img" />
-                                </Box>
-                            </Grid>
+                        <Grid container columns={{ md: 12 }} rowSpacing={{ xs: 2, md: 2 }} columnSpacing={{ xs: 0, md: 0 }}>
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 2.png" alt="img" />
                                 </Box>
                             </Grid>
-                            <Grid item xs={12} md={5}>
+                            <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 3.png" alt="img" />
                                 </Box>
@@ -72,25 +67,15 @@ function PastEvents() {
                             </Grid>
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/9.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 6.png" alt="img" />
                                 </Box>
                             </Grid>
-                            <Grid item xs={12} md={5}>
+                            <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 4.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 17.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={3}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 16.png" alt="img" />
                                 </Box>
@@ -113,11 +98,6 @@ function PastEvents() {
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/10.png" alt="img" />
-                                </Box>
-                            </Grid>
-                            <Grid item xs={12} md={4}>
-                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
-                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/9.png" alt="img" />
                                 </Box>
                             </Grid>
                             <Grid item xs={12} md={4}>

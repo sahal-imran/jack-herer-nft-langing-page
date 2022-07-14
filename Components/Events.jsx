@@ -157,7 +157,7 @@ function Events() {
                     }} >
                         At Jack Herer Cup Events, we discuss current cannabis issues and how to grow our industry along with judging the best cannabis products in the world!<br />
                         <br />
-                        Come and enjoy life music, good food and bump elbows with celebrities and industry leaders!
+                        Come and enjoy live music, good food and bump elbows with celebrities and industry leaders!
                     </Typography>
                 </Container>
             </Box>
