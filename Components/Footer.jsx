@@ -120,28 +120,26 @@ function Footer() {
                                         xs: 2
                                     }, cursor: 'pointer'
                                 }} >
-                                    FAQ
+                                    Faq
                                 </Typography>
                             </Link> : <BarLink href='/' >
-                                    <a style={{ textDecoration: 'none' }} >
-                                        <Typography variant='h4' sx={ {
-                                            color: '#EDEDED', fontSize: {
-                                                md: '24px',
-                                                xs: '18px'
-                                            }, lineHeight: {
-                                                md: '88px',
-                                                xs: '26px'
-                                            }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
-                                                md: 0,
-                                                xs: 2
-                                            }, mx: {
-                                                md: 4
-                                            }
-                                        }} >
-                                            FAQ
-                                        </Typography>
-                                    </a>
-                                </BarLink>
+                                <a style={{ textDecoration: 'none' }} >
+                                    <Typography variant='h4' sx={{
+                                        color: '#EDEDED', fontSize: {
+                                            md: '24px',
+                                            xs: '18px'
+                                        }, lineHeight: {
+                                            md: '88px',
+                                            xs: '26px'
+                                        }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                            md: 0,
+                                            xs: 2
+                                        }
+                                    }} >
+                                        Faq
+                                    </Typography>
+                                </a>
+                            </BarLink>
                         }
                     </Box>
                     <Box sx={router.pathname === '/' ? {

@@ -6,28 +6,42 @@ export default function Document() {
             <Head >
                 <link
                     rel="preload"
-                    href="/fonts/helveticaneue.ttf"
+                    href="/fonts/HelveticaNeue/HelveticaNeue.ttf"
                     as="font"
                     type="font/woff"
                     crossOrigin=""
                 />
                 <link
                     rel="preload"
-                    href="/fonts/HelveticaNeueBold.ttf"
+                    href="/fonts/HelveticaNeue/HelveticaNeue\ Thin.ttf"
                     as="font"
                     type="font/woff"
                     crossOrigin=""
                 />
                 <link
                     rel="preload"
-                    href="/fonts/HelveticaNeueMedium.otf"
+                    href="/fonts/HelveticaNeue/helveticaneueRegular.ttf"
                     as="font"
                     type="font/woff"
                     crossOrigin=""
                 />
                 <link
                     rel="preload"
-                    href="/fonts/HelveticaNeueUltraLight.ttf"
+                    href="/fonts/HelveticaNeue/HelveticaNeue\ Medium.ttf"
+                    as="font"
+                    type="font/woff"
+                    crossOrigin=""
+                />
+                <link
+                    rel="preload"
+                    href="/fonts/HelveticaNeue/Helvetica\ Neu\ Bold.ttf"
+                    as="font"
+                    type="font/woff"
+                    crossOrigin=""
+                />
+                <link
+                    rel="preload"
+                    href="/fonts/HelveticaNeue/HelveticaNeueHv.ttf"
                     as="font"
                     type="font/woff"
                     crossOrigin=""
