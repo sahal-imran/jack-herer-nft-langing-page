@@ -16,23 +16,6 @@
   src: url("../fonts/HelveticaNeueBold.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: "HelveticaUltaLight";
-  src: url("../public/Custom\ fonts/HelveticaNeueUltraLight.ttf") format("truetype");
-}
-@font-face {
-  font-family: "HelveticaRegular";
-  src: url("../public/Custom\ fonts/helveticaneue.ttf") format("truetype");
-}
-@font-face {
-  font-family: "HelveticaMedium";
-  src: url("../public/Custom\ fonts/HelveticaNeueMedium.otf") format("opentype");
-}
-@font-face {
-  font-family: "HelveticaBold";
-  src: url("../public/Custom\ fonts/HelveticaNeueBold.ttf") format("truetype");
-}
-
 html,
 body {
   padding: 0;
