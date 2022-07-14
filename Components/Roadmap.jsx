@@ -353,7 +353,7 @@ function Roadmap() {
                                         xs: '36px'
                                     }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
-                                    Jack Herer Cup NFT holders will be able to gain access and use their points in Thailand for cannabis friendly travel and accommodations with Get Thai With Us. Website:<AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none', ml: 1,color:'white' }} >
+                                    Jack Herer Cup NFT holders will be able to gain access and use their points in Thailand for cannabis friendly travel and accommodations with Get Thai With Us. Website:<AnchorLink target={'_blank'} href='https://getthaiwithus.com/' sx={{ textDecoration: 'none', ml: 1,color:'white' }} >
                                         www.GetThaiWithUs.com
                                     </AnchorLink>
                                 </Typography>
