@@ -11,10 +11,12 @@ function Footer() {
     const router = useRouter();
     return (
         <>
-            <Box sx={{ width: '100%', py: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000',position:'relative',zIndex:2,mt: {
+            <Box sx={{
+                width: '100%', py: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000', position: 'relative', zIndex: 2, mt: {
                     md: 0,
                     xs: -1
-                } }} >
+                }
+            }} >
                 <Container maxWidth="lgBig" sx={router.pathname === '/' ? {
                     height: '100%', display: 'flex', justifyContent: {
                         md: 'space-between',
@@ -97,29 +99,50 @@ function Footer() {
                                 </Typography>
                             </a>
                         </BarLink>
-                        <Link
-                            duration={500}
-                            className={"ScrollLink"}
-                            to={'FAQ'}
-                            spy={true}
-                            activeClass={"active"}
-                            smooth={true}
-                        >
-                            <Typography variant='h4' sx={{
-                                color: '#EDEDED', fontSize: {
-                                    md: '24px',
-                                    xs: '18px'
-                                }, lineHeight: {
-                                    md: '88px',
-                                    xs: '26px'
-                                }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
-                                    md: 0,
-                                    xs: 2
-                                },cursor:'pointer'
-                            }} >
-                                FAQ
-                            </Typography>
-                        </Link>
+                        {
+                            router.pathname === '/' ? <Link
+                                duration={500}
+                                className={"ScrollLink"}
+                                to={'FAQ'}
+                                spy={true}
+                                activeClass={"active"}
+                                smooth={true}
+                            >
+                                <Typography variant='h4' sx={{
+                                    color: '#EDEDED', fontSize: {
+                                        md: '24px',
+                                        xs: '18px'
+                                    }, lineHeight: {
+                                        md: '88px',
+                                        xs: '26px'
+                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                        md: 0,
+                                        xs: 2
+                                    }, cursor: 'pointer'
+                                }} >
+                                    FAQ
+                                </Typography>
+                            </Link> : <BarLink href='/' >
+                                    <a style={{ textDecoration: 'none' }} >
+                                        <Typography variant='h4' sx={ {
+                                            color: '#EDEDED', fontSize: {
+                                                md: '24px',
+                                                xs: '18px'
+                                            }, lineHeight: {
+                                                md: '88px',
+                                                xs: '26px'
+                                            }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                                md: 0,
+                                                xs: 2
+                                            }, mx: {
+                                                md: 4
+                                            }
+                                        }} >
+                                            FAQ
+                                        </Typography>
+                                    </a>
+                                </BarLink>
+                        }
                     </Box>
                     <Box sx={router.pathname === '/' ? {
                         display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: {
@@ -135,7 +158,7 @@ function Footer() {
                                 md: -3
                             }
                         }} >
-                            <AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none',mr: 2 }} >
+                            <AnchorLink target={'_blank'} href='https://twitter.com/JackHererCupNFT' sx={{ textDecoration: 'none', mr: 2 }} >
                                 <Image
                                     src="/twitter.png"
                                     alt="icon"
@@ -144,16 +167,16 @@ function Footer() {
                                     objectFit={'contain'}
                                 />
                             </AnchorLink>
-                            <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
-                            <Image
-                                src="/discord.png"
-                                alt="icon"
-                                width={54}
-                                height={54}
-                                objectFit={'contain'}
-                            />
-                        </AnchorLink>
-                            <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none',mr: 2 }} >
+                            <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none', mr: 2 }} >
+                                <Image
+                                    src="/discord.png"
+                                    alt="icon"
+                                    width={54}
+                                    height={54}
+                                    objectFit={'contain'}
+                                />
+                            </AnchorLink>
+                            <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none', mr: 2 }} >
                                 <Image
                                     src="/instagram.png"
                                     alt="icon"
