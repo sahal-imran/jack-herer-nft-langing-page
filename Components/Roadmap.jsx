@@ -287,7 +287,7 @@ function Roadmap() {
                     }} >
                         <Zoom cascade>
                             <Typography variant='h4' sx={{
-                                color: '#EDEDED', fontSize: '106px', lineHeight: '157px', fontFamily: 'HelveticaBold', ml: 8
+                                color: '#EDEDED', fontSize: '106px', lineHeight: '157px',fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', ml: 8
                             }} >
                                 06
                             </Typography>
@@ -306,7 +306,7 @@ function Roadmap() {
                                     }, lineHeight: {
                                         md: '42px',
                                         xs: '36px'
-                                    }, fontFamily: 'HelveticaBold', fontWeight: 'regular', textAlign: 'start'
+                                    },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start'
                                 }} >
                                     Come Roll With Us at the 2nd Annual Jack Herer Cup Thailand 2 day event on the beach in December.
                                 </Typography>
