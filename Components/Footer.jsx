@@ -46,7 +46,7 @@ function Footer() {
                                     }, lineHeight: {
                                         md: '88px',
                                         xs: '26px'
-                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                         md: 0,
                                         xs: 2
                                     }
@@ -57,7 +57,7 @@ function Footer() {
                                     }, lineHeight: {
                                         md: '88px',
                                         xs: '26px'
-                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                         md: 0,
                                         xs: 2
                                     }
@@ -75,7 +75,7 @@ function Footer() {
                                     }, lineHeight: {
                                         md: '88px',
                                         xs: '26px'
-                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                         md: 0,
                                         xs: 2
                                     }, mx: {
@@ -88,7 +88,7 @@ function Footer() {
                                     }, lineHeight: {
                                         md: '88px',
                                         xs: '26px'
-                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                         md: 0,
                                         xs: 2
                                     }, mx: {
@@ -115,7 +115,7 @@ function Footer() {
                                     }, lineHeight: {
                                         md: '88px',
                                         xs: '26px'
-                                    }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                         md: 0,
                                         xs: 2
                                     }, cursor: 'pointer'
@@ -131,7 +131,7 @@ function Footer() {
                                         }, lineHeight: {
                                             md: '88px',
                                             xs: '26px'
-                                        }, fontFamily: 'HelveticaRegular', textDecoration: 'none', mt: {
+                                        }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textDecoration: 'none', mt: {
                                             md: 0,
                                             xs: 2
                                         }

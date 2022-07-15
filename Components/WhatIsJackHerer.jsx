@@ -18,7 +18,7 @@ function WhatIsJackHerer() {
                         color: '#EDEDED', fontSize: {
                             md:'45px',
                             xs:'40px'
-                        }, lineHeight: '52px', fontFamily: 'HelveticaRegular',textAlign:'center'
+                        }, lineHeight: '52px',fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',textAlign:'center'
                     }} >
                         What is the Jack Herer Cup?
                     </Typography>
@@ -29,7 +29,7 @@ function WhatIsJackHerer() {
                         }, lineHeight: {
                             md:'40px',
                             xs:'24px'
-                        }, fontFamily: 'HelveticaRegular',textAlign:'center',width:{
+                        },fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',textAlign:'center',width:{
                             md:'60%'
                         },mt:4
                     }} >

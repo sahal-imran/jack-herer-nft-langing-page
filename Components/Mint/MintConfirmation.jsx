@@ -63,7 +63,7 @@ function MintConfirmation() {
                             xs: '40px'
                         }, lineHeight: {
                             md: '66px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                         Jack Herer Cup
                     </Typography>
@@ -99,7 +99,7 @@ function MintConfirmation() {
                                             }, lineHeight: {
                                                 md: '42px',
                                                 xs: '28px'
-                                            }, fontFamily: 'HelveticaBold'
+                                            }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                                         }} >
                                             Total Supply
                                         </Typography>
@@ -110,7 +110,7 @@ function MintConfirmation() {
                                             }, lineHeight: {
                                                 md: '42px',
                                                 xs: '24px'
-                                            }, fontFamily: 'HelveticaRegular'
+                                            }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                                         }} >
                                             {MintSelected === 'member' ? '7,356' : '399'}
                                         </Typography>
@@ -123,7 +123,7 @@ function MintConfirmation() {
                                             }, lineHeight: {
                                                 md: '42px',
                                                 xs: '28px'
-                                            }, fontFamily: 'HelveticaBold'
+                                            }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                                         }} >
                                             Public Price
                                         </Typography>
@@ -134,7 +134,7 @@ function MintConfirmation() {
                                             }, lineHeight: {
                                                 md: '42px',
                                                 xs: '24px'
-                                            }, fontFamily: 'HelveticaRegular'
+                                            }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                                         }} >
                                             {MintSelected === 'member' ? '.6 ETH' : '1 ETH'}
                                         </Typography>
@@ -147,7 +147,7 @@ function MintConfirmation() {
                                             }, lineHeight: {
                                                 md: '42px',
                                                 xs: '28px'
-                                            }, fontFamily: 'HelveticaBold'
+                                            }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                                         }} >
                                             Amount
                                         </Typography>
@@ -161,7 +161,7 @@ function MintConfirmation() {
                                                     }, lineHeight: {
                                                         md: '42px',
                                                         xs: '28px'
-                                                    }, fontFamily: 'HelveticaRegular'
+                                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                                                 }} >
                                                     {Mint}
                                                 </Typography>
@@ -182,7 +182,7 @@ function MintConfirmation() {
                                         }, lineHeight: {
                                             md: '38px',
                                             xs: '28'
-                                        }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                                             md: 8,
                                             xs: 8
                                         }, textDecoration: 'none'

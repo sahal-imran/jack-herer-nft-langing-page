@@ -35,7 +35,7 @@ function Hero() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28'
-                                    }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                                         md: -8
                                     }, textDecoration: 'none'
                                 }} >

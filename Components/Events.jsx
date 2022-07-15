@@ -151,7 +151,7 @@ function Events() {
                         }, lineHeight: {
                             md: '40px',
                             xs: '24px'
-                        }, fontFamily: 'HelveticaRegular', textAlign: 'center', width: {
+                        },fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', width: {
                             md: '68%'
                         }
                     }} >

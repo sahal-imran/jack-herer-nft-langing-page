@@ -37,7 +37,7 @@ function TopBar() {
                         xs: '24px'
                     }, lineHeight: {
                         md: '42px'
-                    }, fontFamily: 'HelveticaBold'
+                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                 }} >
                     Jack Herer Cup
                 </Typography>

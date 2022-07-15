@@ -37,7 +37,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'52px',
                                         xs:'36px'
-                                    }, fontFamily: 'HelveticaRegular', }} >
+                                    },fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', }} >
                                         Backstage Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
@@ -46,7 +46,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'36px',
                                         xs:'24px'
-                                    }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2 }} >
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
                                         - Air Dropped to Celebrities and Industry leaders.<br />
                                         <br />
                                         - Member will receive 40,000 points to be used to attend events<br />and gain additional access.<br />
@@ -69,7 +69,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'52px',
                                         xs:'36px'
-                                    }, fontFamily: 'HelveticaRegular', }} >
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', }} >
                                         VIP Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED', fontSize: {
@@ -78,7 +78,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'36px',
                                         xs:'24px'
-                                    }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2 }} >
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
                                         - Access to exclusive VIP Level Only
                                         areas at all events.<br />
                                         <br />
@@ -102,7 +102,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'52px',
                                         xs:'36px'
-                                    }, fontFamily: 'HelveticaRegular', }} >
+                                    },fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', }} >
                                         Members Level:
                                     </Typography>
                                     <Typography variant='h4' sx={{ color: '#EDEDED',fontSize: {
@@ -111,7 +111,7 @@ function Collection() {
                                     }, lineHeight: {
                                         md:'36px',
                                         xs:'24px'
-                                    }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2 }} >
+                                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
                                         - Access to exclusive Members Level Only
                                         areas at all events. <br />
                                         <br />

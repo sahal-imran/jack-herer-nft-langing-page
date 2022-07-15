@@ -106,7 +106,7 @@ function Mint() {
                 xs: '40px'
               }, lineHeight: {
                 md: '66px'
-              }, fontFamily: 'HelveticaBold', textAlign: 'center'
+              }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'center'
             }} >
               Become a VIP or Member
             </Typography>
@@ -116,7 +116,7 @@ function Mint() {
                 xs: '30px'
               }, lineHeight: {
                 md: '52px'
-              }, fontFamily: 'HelveticaRegular', mt: 2, textAlign: 'center'
+              }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', mt: 2, textAlign: 'center'
             }} >
               Start by selecting one of the following:
             </Typography>
@@ -145,7 +145,7 @@ function Mint() {
                         xs: '30px'
                       }, lineHeight: {
                         md: '55px'
-                      }, fontFamily: 'HelveticaBold', mt: 4
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', mt: 4
                     }} >
                       VIP
                     </Typography>
@@ -169,7 +169,7 @@ function Mint() {
                         xs: '30px'
                       }, lineHeight: {
                         md: '55px'
-                      }, fontFamily: 'HelveticaBold', mt: 4
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', mt: 4
                     }} >
                       Members
                     </Typography>
@@ -225,7 +225,7 @@ function Mint() {
                     xs: '30px'
                   }, lineHeight: {
                     md: '57px'
-                  }, fontFamily: 'HelveticaBold'
+                  }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                 }} >
                   VIP
                 </Typography>
@@ -238,7 +238,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Total Supply
                     </Typography>
@@ -249,7 +249,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       399
                     </Typography>
@@ -262,7 +262,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Presale Price
                     </Typography>
@@ -273,7 +273,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       .85 ETH
                     </Typography>
@@ -294,7 +294,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '28px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Total Supply
                     </Typography>
@@ -305,7 +305,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       399 - Presale
                     </Typography>
@@ -318,7 +318,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Public Price
                     </Typography>
@@ -329,7 +329,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       1 ETH
                     </Typography>
@@ -349,7 +349,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '38px',
                           xs: '28'
-                        }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                           md: 8,
                           xs: 4
                         }, textDecoration: 'none'
@@ -402,7 +402,7 @@ function Mint() {
                     xs: '30px'
                   }, lineHeight: {
                     md: '57px'
-                  }, fontFamily: 'HelveticaBold'
+                  }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                 }} >
                   Members
                 </Typography>
@@ -415,7 +415,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Total Supply
                     </Typography>
@@ -426,7 +426,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       7,356
                     </Typography>
@@ -439,7 +439,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Presale Price
                     </Typography>
@@ -450,7 +450,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       .420 ETH
                     </Typography>
@@ -471,7 +471,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '28px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Total Supply
                     </Typography>
@@ -482,7 +482,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       7,356 - Presale
                     </Typography>
@@ -495,7 +495,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '28px'
-                      }, fontFamily: 'HelveticaBold'
+                      }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                     }} >
                       Public Price
                     </Typography>
@@ -506,7 +506,7 @@ function Mint() {
                       }, lineHeight: {
                         md: '42px',
                         xs: '24px'
-                      }, fontFamily: 'HelveticaRegular'
+                      }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                     }} >
                       .6 ETH
                     </Typography>
@@ -526,7 +526,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '38px',
                           xs: '28'
-                        }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                           md: 8,
                           xs: 4
                         }, textDecoration: 'none'
@@ -566,7 +566,7 @@ function Mint() {
                     }, lineHeight: {
                       md: '28px',
                       xs: '24px'
-                    }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2
+                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2
                   }} >
                     - Access to exclusive VIP Level Only<br />
                     areas at all events. <br />
@@ -590,7 +590,7 @@ function Mint() {
                       xs: '30px'
                     }, lineHeight: {
                       md: '57px'
-                    }, fontFamily: 'HelveticaBold'
+                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                   }} >
                     VIP
                   </Typography>
@@ -603,7 +603,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         Total Supply
                       </Typography>
@@ -614,7 +614,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '24px'
-                        }, fontFamily: 'HelveticaRegular'
+                        }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                       }} >
                         399
                       </Typography>
@@ -627,7 +627,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         {Category_VIP}
                       </Typography>
@@ -642,7 +642,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '24px'
-                        }, fontFamily: 'HelveticaRegular'
+                        }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                       }} >
                         {Category_VIP_Value}
                       </Typography>
@@ -655,7 +655,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         Amount
                       </Typography>
@@ -669,7 +669,7 @@ function Mint() {
                             }, lineHeight: {
                               md: '42px',
                               xs: '28px'
-                            }, fontFamily: 'HelveticaRegular'
+                            }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                           }} >
                             {Mint}
                           </Typography>
@@ -692,7 +692,7 @@ function Mint() {
                           }, lineHeight: {
                             md: '38px',
                             xs: '28'
-                          }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                          }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                             md: 12,
                             xs: 4
                           }, textDecoration: 'none'
@@ -730,7 +730,7 @@ function Mint() {
                     }, lineHeight: {
                       md: '28px',
                       xs: '24px'
-                    }, fontFamily: 'HelveticaRegular', textAlign: 'center', mt: 2
+                    }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2
                   }} >
                     - Access to exclusive Members Level Only <br />
                     areas at all events. <br />
@@ -754,7 +754,7 @@ function Mint() {
                       xs: '30px'
                     }, lineHeight: {
                       md: '57px'
-                    }, fontFamily: 'HelveticaBold'
+                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                   }} >
                     Members
                   </Typography>
@@ -767,7 +767,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         Total Supply
                       </Typography>
@@ -778,7 +778,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '24px'
-                        }, fontFamily: 'HelveticaRegular'
+                        }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                       }} >
                         7,356
                       </Typography>
@@ -791,7 +791,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         {Category_Members}
                       </Typography>
@@ -806,7 +806,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '24px'
-                        }, fontFamily: 'HelveticaRegular'
+                        }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                       }} >
                         {Category_Members_Value}
                       </Typography>
@@ -819,7 +819,7 @@ function Mint() {
                         }, lineHeight: {
                           md: '42px',
                           xs: '28px'
-                        }, fontFamily: 'HelveticaBold'
+                        }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold'
                       }} >
                         Amount
                       </Typography>
@@ -833,7 +833,7 @@ function Mint() {
                             }, lineHeight: {
                               md: '42px',
                               xs: '28px'
-                            }, fontFamily: 'HelveticaRegular'
+                            }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular'
                           }} >
                             {Mint}
                           </Typography>
@@ -856,7 +856,7 @@ function Mint() {
                           }, lineHeight: {
                             md: '38px',
                             xs: '28'
-                          }, fontFamily: 'HelveticaBold', borderRadius: '15px', textTransform: "capitalize", mt: {
+                          }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', borderRadius: '15px', textTransform: "capitalize", mt: {
                             md: 12,
                             xs: 4
                           }, textDecoration: 'none'

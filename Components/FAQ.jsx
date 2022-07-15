@@ -60,7 +60,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     How many are there?
                                 </Typography>
@@ -73,7 +73,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    }, 
                                 }} >
                                     Total NFTS: 7,777<br />Backstage Level: 22<br />VIP Level: 399<br />Members Level: total NFTs are 7,356
                                 </Typography>
@@ -93,7 +93,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     Which blockchain is it on?
                                 </Typography>
@@ -106,7 +106,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    },  fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',
                                 }} >
                                     Ethereum (ETH) Blockchain
                                 </Typography>
@@ -126,7 +126,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     How much does the NFT cost?
                                 </Typography>
@@ -139,7 +139,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    },  fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',
                                 }} >
                                     Backstage Level: Air dropped to Celebrities and Industry Leaders<br />
                                     <br />
@@ -167,7 +167,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     When does the NFT drop?
                                 </Typography>
@@ -180,7 +180,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    },  fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',
                                 }} >
                                     To be determined
                                 </Typography>
@@ -200,7 +200,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     What is the max amount that is mintable?
                                 </Typography>
@@ -213,7 +213,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    },  fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',
                                 }} >
                                     Each person will be able to mint up to 4 NFTS
                                 </Typography>
@@ -233,7 +233,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '38px',
                                         xs: '28px'
-                                    }, fontFamily: 'HelveticaBold'
+                                    }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold',
                                 }} >
                                     What is Jack Herer Cup?
                                 </Typography>
@@ -246,7 +246,7 @@ function FAQ() {
                                     }, lineHeight: {
                                         md: '30px',
                                         xs: '24px'
-                                    }, fontFamily: 'HelveticaRegular'
+                                    },  fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular',
                                 }} >
                                     The Jack Herer Cup is the Premier Cannabis Award Show that honors the Best Products and Cannabis Leaders in the Industry. At our events held around the world, we come together to discuss cannabis education and current issues in the cannabis industry.<br />
                                     <br />
