@@ -165,7 +165,7 @@ function Footer() {
                                     objectFit={'contain'}
                                 />
                             </AnchorLink>
-                            <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none', mr: 2 }} >
+                            <AnchorLink target={'_blank'} href='https://discord.gg/P66BrmED' sx={{ textDecoration: 'none', mr: 2 }} >
                                 <Image
                                     src="/discord.png"
                                     alt="icon"
