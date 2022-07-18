@@ -49,10 +49,12 @@ function Collection() {
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
-                                            xs: '16px'
+                                            sm: '16px',
+                                            xs:'14px'
                                         }, lineHeight: {
                                             md: '36px',
-                                            xs: '24px'
+                                            sm: '24px',
+                                            xs:'20px'
                                         }, fontFamily: ['HelveticaRegular', 'Open Sans'], fontWeight: 'regular', textAlign: 'center', mt: 2
                                     }} >
                                         - Airdropped to Celebrities and Industry leaders.<br />
@@ -98,10 +100,12 @@ function Collection() {
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
-                                            xs: '16px'
+                                            sm: '16px',
+                                            xs:'14px'
                                         }, lineHeight: {
                                             md: '36px',
-                                            xs: '24px'
+                                            sm: '24px',
+                                            xs:'20px'
                                         }, fontFamily: ['HelveticaRegular', 'Open Sans'], fontWeight: 'regular', textAlign: 'center', mt: 2
                                     }} >
                                         - Access to exclusive VIP Level Only
@@ -148,10 +152,12 @@ function Collection() {
                                     <Typography variant='h4' sx={{
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
-                                            xs: '16px'
+                                            sm: '16px',
+                                            xs:'14px'
                                         }, lineHeight: {
                                             md: '36px',
-                                            xs: '24px'
+                                            sm: '24px',
+                                            xs:'20px'
                                         }, fontFamily: ['HelveticaRegular', 'Open Sans'], fontWeight: 'regular', textAlign: 'center', mt: 2
                                     }} >
                                         - Access to exclusive Members Level Only

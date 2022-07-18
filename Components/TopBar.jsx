@@ -166,7 +166,7 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none',mr: 2  }} >
+                        <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none',mr: 2  }} >
                             <Image
                                 src="/instagram.png"
                                 alt="icon"
@@ -175,7 +175,7 @@ function TopBar() {
                                 objectFit={'contain'}
                             />
                         </AnchorLink>
-                        <AnchorLink target={'_blank'} href='https://www.instagram.com/jackherercup/?hl=en' sx={{ textDecoration: 'none' }} >
+                        <AnchorLink target={'_blank'} href='' sx={{ textDecoration: 'none' }} >
                             <Image
                                 src="/opensea.png"
                                 alt="icon"
