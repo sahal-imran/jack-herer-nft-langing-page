@@ -59,6 +59,11 @@ function PastEvents() {
                             </Grid>
                             <Grid item xs={12} md={4}>
                                 <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                                    <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/1.jpg" alt="img" />
+                                </Box>
+                            </Grid>
+                            <Grid item xs={12} md={4}>
+                                <Box sx={{ width: '100%', height: '460px', display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
                                     <img style={{ width: '100%', height: '100%', objectFit: 'fill' }} src="/past event/jack herer 8.png" alt="img" />
                                 </Box>
                             </Grid>

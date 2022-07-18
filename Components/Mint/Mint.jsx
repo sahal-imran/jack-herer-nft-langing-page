@@ -569,7 +569,7 @@ function Mint() {
                     }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2
                   }} >
                     - Access to exclusive VIP Level Only<br />
-                    areas at all events. <br />
+                    areas at events. <br />
                     <br />
                     - Member will receive 18,000 points to be used to attend events and gain additional access. <br />
                     <br />
@@ -733,7 +733,7 @@ function Mint() {
                     }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2
                   }} >
                     - Access to exclusive Members Level Only <br />
-                    areas at all events. <br />
+                    areas at events. <br />
                     <br />
                     - Member will receive 8,000 points to be used to attend events and gain additional access. <br />
                     <br />

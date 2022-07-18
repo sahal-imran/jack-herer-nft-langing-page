@@ -63,15 +63,17 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start',
                                 }} >
-                                    Launch of Jack Here Cup NFT!
+                                    Launch of Jack Herer Cup NFT!
                                 </Typography>
                             </Zoom>
                         </Box>
@@ -108,12 +110,14 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start'
                                 }} >
                                     First Event in the United States for 2022 in Oklahoma!
@@ -153,12 +157,14 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     }, fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Completion of Jack Herer Cup Web3 Platform!
@@ -209,12 +215,14 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start'
                                 }} >
                                     Our Inaugural Jack Herer Cup Colombia will be hosted by DJ Bonics in Medellin, Colombia on November 4th through the 6th!
@@ -254,12 +262,14 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Our Most Famous Event, the 8th Annual Jack Herer Cup Las Vegas
@@ -300,12 +310,14 @@ function Roadmap() {
                         }} >
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
-                                    color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                    color: '#EDEDED',fontSize: {
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start'
                                 }} >
                                     Come Roll With Us at the 2nd Annual Jack Herer Cup Thailand 2 day event on the beach in December.
@@ -346,11 +358,13 @@ function Roadmap() {
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
                                     color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start', position: 'relative', zIndex: 1,
                                 }} >
                                     Jack Herer Cup NFT holders will be able to gain access and use their points in Thailand for cannabis friendly travel and accommodations with Get Thai With Us. Website:<AnchorLink target={'_blank'} href='https://getthaiwithus.com/' sx={{ textDecoration: 'none', ml: 1,color:'white' }} >
@@ -393,11 +407,13 @@ function Roadmap() {
                             <Zoom cascade>
                                 <Typography variant='h4' sx={{
                                     color: '#EDEDED', fontSize: {
-                                        md: '35px',
-                                        xs: '30px'
+                                        lg: '35px',
+                                        md: '24px',
+                                        xs:'18px'
                                     }, lineHeight: {
                                         md: '42px',
-                                        xs: '36px'
+                                        md: '30px',
+                                        md:'36px'
                                     },fontFamily: ['HelveticaBold','Open Sans'],fontWeight:'bold', textAlign: 'start'
                                 }} >
                                     Jack Herer Cup Metaverse Coming Soon..

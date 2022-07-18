@@ -47,7 +47,7 @@ function Collection() {
                                         md:'36px',
                                         xs:'24px'
                                     }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
-                                        - Air Dropped to Celebrities and Industry leaders.<br />
+                                        - Airdropped to Celebrities and Industry leaders.<br />
                                         <br />
                                         - Member will receive 40,000 points to be used to attend events<br />and gain additional access.<br />
                                         <br />
@@ -80,7 +80,7 @@ function Collection() {
                                         xs:'24px'
                                     }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
                                         - Access to exclusive VIP Level Only
-                                        areas at all events.<br />
+                                        areas at events.<br />
                                         <br />
                                         - Member will receive 18,000 points to be used to attend events<br />and gain additional access.<br />
                                         <br />
@@ -113,7 +113,7 @@ function Collection() {
                                         xs:'24px'
                                     }, fontFamily: ['HelveticaRegular','Open Sans'],fontWeight:'regular', textAlign: 'center', mt: 2 }} >
                                         - Access to exclusive Members Level Only
-                                        areas at all events. <br />
+                                        areas at events. <br />
                                         <br />
                                         - Member will receive 8,000 points to be used to attend events<br />and gain additional access. <br />
                                         <br />
