@@ -50,7 +50,7 @@ function Collection() {
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
                                             sm: '16px',
-                                            xs:'14px'
+                                            xs:'12px'
                                         }, lineHeight: {
                                             md: '36px',
                                             sm: '24px',
@@ -101,7 +101,7 @@ function Collection() {
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
                                             sm: '16px',
-                                            xs:'14px'
+                                            xs:'12px'
                                         }, lineHeight: {
                                             md: '36px',
                                             sm: '24px',
@@ -153,7 +153,7 @@ function Collection() {
                                         color: '#EDEDED', fontSize: {
                                             md: '14px',
                                             sm: '16px',
-                                            xs:'14px'
+                                            xs:'12px'
                                         }, lineHeight: {
                                             md: '36px',
                                             sm: '24px',
